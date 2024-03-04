@@ -441,7 +441,7 @@ function Window:create_buffer_defaults(buf_id)
 
     vim.keymap.set("n", "q", vim.cmd.close, { buffer = buf_id })
     vim.keymap.set("n", "<c-c>", vim.cmd.close, { buffer = buf_id })
-    vim.keymap.set("n", "<esc>", vim.cmd.close, { buffer = buf_id })
+    -- vim.keymap.set("n", "<esc>", vim.cmd.close, { buffer = buf_id })
 end
 
 -- See :h vim.keymap.set
